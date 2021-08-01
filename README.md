@@ -17,32 +17,25 @@ Universal Bet Wager – Bets could be not only on Sports events (e.g. how much i
 
 ### Polygon Mainnet
 
-ETH_CHAIN_ID 137
-
-Address 0xb0897686c545045afc77cf20ec7a532e3120e0f1
-
-Name ChainLink Token
-
-Symbol LINK
-
-Decimals 18
+- ETH_CHAIN_ID 137
+- Address 0xb0897686c545045afc77cf20ec7a532e3120e0f1
+- Name ChainLink Token
+- Symbol LINK
+- Decimals 18
 
 ### Ethereum Kovan
 
 Kovan Faucets
 
 Testnet LINK is available from https://kovan.chain.link/
+
 Testnet ETH is available from https://linkfaucet.protofire.io/kovan
 
-ETH_CHAIN ID 42
-
-Address 0xa36085F69e2889c224210F603D836748e7dC0088
-
-Name ChainLink Token
-
-Symbol LINK
-
-Decimals 18
+- ETH_CHAIN ID 42
+- Address 0xa36085F69e2889c224210F603D836748e7dC0088
+- Name ChainLink Token
+- Symbol LINK
+- Decimals 18
 
 ## Ethereum Rinkeby
 
@@ -50,14 +43,9 @@ Testnet LINK is available from [https://rinkeby.chain.link/](https://rinkeby.cha
 
 Testnet ETH is available from [https://faucet.rinkeby.io/](https://faucet.rinkeby.io/)
 
-
-ETH_CHAIN ID 4
-
-Address 0x01BE23585060835E02B77ef475b0Cc51aA1e0709
-
-Name ChainLink Token
-
-Symbol LINK
-
-Decimals 18
+- ETH_CHAIN ID 4
+- Address 0x01BE23585060835E02B77ef475b0Cc51aA1e0709
+- Name ChainLink Token
+- Symbol LINK
+- Decimals 18
 
