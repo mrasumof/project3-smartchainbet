@@ -1,5 +1,18 @@
 # betcrypto-homework
 
+
+## Ethereum Mainnet
+
+ETH_CHAIN_ID 1
+
+Address 0x514910771af9ca656af840dff83e8264ecf986ca
+
+Name ChainLink Token
+
+Symbol LINK
+
+Decimals 18
+
 ## Polygon Mainnet
 
 ETH_CHAIN_ID 137
@@ -12,7 +25,29 @@ Symbol LINK
 
 Decimals 18
 
+## Ethereum Kovan
+
+Kovan Faucets
+
+Testnet LINK is available from https://kovan.chain.link/
+Testnet ETH is available from https://linkfaucet.protofire.io/kovan
+
+ETH_CHAIN ID 42
+
+Address 0xa36085F69e2889c224210F603D836748e7dC0088
+
+Name ChainLink Token
+
+Symbol LINK
+
+Decimals 18
+
 ## Ethereum Rinkeby
+
+Testnet LINK is available from [https://rinkeby.chain.link/](https://rinkeby.chain.link/?_ga=2.239796163.19790547.1627736558-847623587.1625927663)
+
+Testnet ETH is available from [https://faucet.rinkeby.io/](https://faucet.rinkeby.io/)
+
 
 ETH_CHAIN ID 4
 
