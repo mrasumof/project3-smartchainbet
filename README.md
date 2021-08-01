@@ -1,19 +1,21 @@
-# betcrypto-homework
+# Smartchain.bet
+Be the “go-to” and leader P2P-Betting Dapp in the Market
+Create a Blockchain-Smart Contract based platform that supports a multitude of options for peer-to-peer betting
+Universal Bet Support – Provide users with different ways of betting (e.g. score, spread, who scores first, etc.)
+Universal Bet Wager – Bets could be not only on Sports events (e.g. how much it is going to rain in NYC today?)
 
 
-## Ethereum Mainnet
+### Ethereum Mainnet
 
-ETH_CHAIN_ID 1
+- ETH_CHAIN_ID 1
+- Address 0x514910771af9ca656af840dff83e8264ecf986ca
+- Name ChainLink Token
+- Symbol LINK
+- Decimals 18
 
-Address 0x514910771af9ca656af840dff83e8264ecf986ca
+### Binance Smart Chain Mainnet
 
-Name ChainLink Token
-
-Symbol LINK
-
-Decimals 18
-
-## Polygon Mainnet
+### Polygon Mainnet
 
 ETH_CHAIN_ID 137
 
@@ -25,7 +27,7 @@ Symbol LINK
 
 Decimals 18
 
-## Ethereum Kovan
+### Ethereum Kovan
 
 Kovan Faucets
 
