@@ -1,8 +1,8 @@
 # Smartchain.bet
-Be the “go-to” and leader P2P-Betting Dapp in the Market
-Create a Blockchain-Smart Contract based platform that supports a multitude of options for peer-to-peer betting
-Universal Bet Support – Provide users with different ways of betting (e.g. score, spread, who scores first, etc.)
-Universal Bet Wager – Bets could be not only on Sports events (e.g. how much it is going to rain in NYC today?)
+- Be the “go-to” and leader P2P-Betting Dapp in the Market
+- Create a Blockchain-Smart Contract based platform that supports a multitude of options for peer-to-peer betting
+- Universal Bet Support – Provide users with different ways of betting (e.g. score, spread, who scores first, etc.)
+- Universal Bet Wager – Bets could be not only on Sports events (e.g. how much it is going to rain in NYC today?)
 
 
 ### Ethereum Mainnet
@@ -14,6 +14,12 @@ Universal Bet Wager – Bets could be not only on Sports events (e.g. how much i
 - Decimals 18
 
 ### Binance Smart Chain Mainnet
+
+- ETH_CHAIN_ID 1
+- Address 0x514910771af9ca656af840dff83e8264ecf986ca
+- Name ChainLink Token
+- Symbol LINK
+- Decimals 18
 
 ### Polygon Mainnet
 
@@ -27,9 +33,9 @@ Universal Bet Wager – Bets could be not only on Sports events (e.g. how much i
 
 Kovan Faucets
 
-Testnet LINK is available from https://kovan.chain.link/
+Testnet LINK is available from [https://kovan.chain.link/]
 
-Testnet ETH is available from https://linkfaucet.protofire.io/kovan
+Testnet ETH is available from [https://linkfaucet.protofire.io/kovan]
 
 - ETH_CHAIN ID 42
 - Address 0xa36085F69e2889c224210F603D836748e7dC0088
@@ -45,6 +51,14 @@ Testnet ETH is available from [https://faucet.rinkeby.io/](https://faucet.rinkeb
 
 - ETH_CHAIN ID 4
 - Address 0x01BE23585060835E02B77ef475b0Cc51aA1e0709
+- Name ChainLink Token
+- Symbol LINK
+- Decimals 18
+
+## Ethereum Goerli
+
+- ETH_CHAIN ID 5
+- Address 0x326c977e6efc84e512bb9c30f76e30c160ed06fb
 - Name ChainLink Token
 - Symbol LINK
 - Decimals 18
