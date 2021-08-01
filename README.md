@@ -51,3 +51,73 @@ Link Data Feeds can be used from these Networks
 - Testnet LINK is available from [https://rinkeby.chain.link/]
 - Testnet ETH is available from [https://faucet.rinkeby.io/]
 
+## Connect Your MetaMask With Binance Smart Chain
+
+1. Go to settimng page
+
+![Deploy](/Images/settings_MetaMask.png)
+
+2. Select Networks and click on `Add Network`
+
+![Deploy](/Images/Add_network.png)
+
+3. Fill the fields with this information
+
+![Deploy](/Images/network_info.png)
+
+- Testnet
+
+    - RPC URLs
+    - ChainID: 0x61, 97 in decimal (if 97 doesn’t work, try 0x61)
+    - Symbol: BNB
+    - Block Explorer: https://testnet.bscscan.com
+
+(Add Mainnet with steps 1-3 )
+
+- Mainnet
+
+    - RPC URLs
+    - ChainID: 0x38, 56 in decimal (if 56 doesn’t work, try 0x38)
+    - Symbol: BNB
+    - Block Explorer: https://bscscan.com
+
+4. Claim some testnet token to your account Click on your address for copy
+
+![Deploy](/Images/copy_address.png)
+
+5. Go to faucet page: [https://testnet.binance.org/faucet-smart], then paste your address in the box and click on “Give me BNB”
+
+![Deploy](/Images/faucet.png)
+
+`Tip`   Please note that you can only claim once every 24 hours until next allowance
+
+## Add BEP20 Tokens
+
+1. Deploy an ERC20 contract at [https://remix.ethereum.org/] You can create a new file or import a sample contract:
+
+2. Connect your Binance Smart Chain Account to Remix
+
+![Deploy](/Images/remix.png)
+
+3. Connect your Binance Smart Chain Account to Remix, Select `SmartChainBet` contract and compile
+
+![Deploy](/Images/compile.png)
+
+4. Deploy your compiled contract 
+
+![Deploy](/Images/new_contract.png)
+
+5. You can go and check in `BscScan` [https://testnet.bscscan.com/] to see that there is a new create contract transaction
+
+![Deploy](/Images/tx_details.png)
+
+6. In MetaMask, Go to `Assets` and click on `Add Token`
+
+![Deploy](/Images/AddToken.png)
+
+7. Paste the `SmartChainBet` Token Contract Address, type `SmartChain` in Token Symbol and click "Next"
+
+![Deploy](/Images/Add_Token.png)
+
+
+
