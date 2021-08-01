@@ -45,9 +45,9 @@ Testnet ETH is available from [https://linkfaucet.protofire.io/kovan]
 
 ## Ethereum Rinkeby
 
-Testnet LINK is available from [https://rinkeby.chain.link/](https://rinkeby.chain.link/?_ga=2.239796163.19790547.1627736558-847623587.1625927663)
+Testnet LINK is available from [https://rinkeby.chain.link/]
 
-Testnet ETH is available from [https://faucet.rinkeby.io/](https://faucet.rinkeby.io/)
+Testnet ETH is available from [https://faucet.rinkeby.io/]
 
 - ETH_CHAIN ID 4
 - Address 0x01BE23585060835E02B77ef475b0Cc51aA1e0709
