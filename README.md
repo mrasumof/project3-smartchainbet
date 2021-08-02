@@ -53,7 +53,9 @@ Link Data Feeds can be used from these Networks
 
 ## Connect Your MetaMask With Binance Smart Chain
 
-1. Go to settimng page
+Before we get started create a MetaMask Wallet or import One, then follow the steps:
+
+1. Go to setting page
 
 ![Deploy](/Images/settings_MetaMask.png)
 
