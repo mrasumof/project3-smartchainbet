@@ -152,6 +152,7 @@ Before we get started create a MetaMask Wallet or import One, then follow the st
 
 
 4. Claim some testnet token to your account Click on your address for copy
+faucet (use Mumbai MATIC) https://faucet.matic.network/
 
 ![Deploy](/Images/copy_.png)
 
