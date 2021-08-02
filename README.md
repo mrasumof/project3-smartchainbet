@@ -69,7 +69,7 @@ Before we get started create a MetaMask Wallet or import One, then follow the st
 
 - Testnet
 
-    - RPC URLs
+    - RPC URLs - use address from Testnet data on this page: https://docs.binance.org/smart-chain/developer/rpc.html
     - ChainID: 0x61, 97 in decimal (if 97 doesn’t work, try 0x61)
     - Symbol: BNB
     - Block Explorer: https://testnet.bscscan.com
@@ -78,7 +78,7 @@ Before we get started create a MetaMask Wallet or import One, then follow the st
 
 - Mainnet
 
-    - RPC URLs
+    - RPC URLs - use address from Mainnet data on this page: https://docs.binance.org/smart-chain/developer/rpc.html
     - ChainID: 0x38, 56 in decimal (if 56 doesn’t work, try 0x38)
     - Symbol: BNB
     - Block Explorer: https://bscscan.com
