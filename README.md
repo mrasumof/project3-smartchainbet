@@ -93,13 +93,80 @@ Before we get started create a MetaMask Wallet or import One, then follow the st
 
 `Tip`   Please note that you can only claim once every 24 hours until next allowance
 
+## Connect Your MetaMask with ETH Kovan
+
+Before we get started create a MetaMask Wallet or import One, then follow the steps:
+
+1. Go to setting page
+
+![Deploy](/Images/settings_MetaMask.png)
+
+2. Select Networks and click on `Add Network`
+
+![Deploy](/Images/Add_network.png)
+
+3. Fill the fields with this information
+
+![Deploy](/Images/network_info.png)
+
+- Ethereum Kovan
+
+    - RPC URLs
+    - ChainID: 
+    - Symbol: LINK
+    - Block Explorer: 
+
+4. Claim some testnet token to your account Click on your address for copy
+
+![Deploy](/Images/.png)
+
+5. Go to Chainlink Kovan Faucet page: [https://kovan.chain.link/], then paste your address in the box and click on “Send me 100 Test LINK”
+
+![Deploy](/Images/kovan_faucet.png)
+
+`Tip`   Please note that you can only claim once every 24 hours until next allowance
+
+## Connect Your MetaMask with MATIC Polygon Mainnet
+
+Before we get started create a MetaMask Wallet or import One, then follow the steps:
+
+1. Go to setting page
+
+![Deploy](/Images/settings_MetaMask.png)
+
+2. Select Networks and click on `Add Network`
+
+![Deploy](/Images/Add_network.png)
+
+3. Fill the fields with this information
+
+![Deploy](/Images/network_info.png)
+
+- Testnet
+
+    - RPC URLs
+    - ChainID: 137
+    - Symbol: LINK
+    - Block Explorer: 
+
+
+
+4. Claim some testnet token to your account Click on your address for copy
+
+![Deploy](/Images/copy_.png)
+
+5. Go to faucet page: [https://testnet.], then paste your address in the box and click on “Give me ...”
+
+![Deploy](/Images/fa.png)
+
+`Tip`   Please note that you can only claim once every 24 hours until next allowance
+
 ## Add BEP20 Tokens
 
 1. Deploy an ERC20 contract at [https://remix.ethereum.org/] You can create a new file or import a sample contract:
 
 2. Connect your Binance Smart Chain Account to Remix
 
-![Deploy](/Images/remix.png)
 
 3. Connect your Binance Smart Chain Account to Remix, Select `SmartChainBet` contract and compile
 
