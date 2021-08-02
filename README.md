@@ -144,14 +144,15 @@ Before we get started create a MetaMask Wallet or import One, then follow the st
 
 - Testnet
 
-    - RPC URLs
-    - ChainID: 137
-    - Symbol: LINK
-    - Block Explorer: 
+    - RPC URLs - Use RPC URLs Testnet (Mumbai) from https://docs.matic.network/docs/develop/network-details/network/
+    - ChainID: 80001
+    - Symbol: MATIC
+    - Block Explorer: Use Block Explorer Testnet (Mumbai) from https://docs.matic.network/docs/develop/network-details/network/
 
 
 
 4. Claim some testnet token to your account Click on your address for copy
+faucet (use Mumbai MATIC) https://faucet.matic.network/
 
 ![Deploy](/Images/copy_.png)
 
