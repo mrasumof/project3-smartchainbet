@@ -30,7 +30,7 @@ Link Data Feeds can be used from these Networks
 
 ### Ethereum Kovan
 - ETH_CHAIN ID 42
-- Address `0xa36085F69e2889c224210F603D836748e7dC0088`
+- Address `0xa36085F69e2889c224210F603D836748e7dC0088` 
 - Name ChainLink Token
 - Symbol LINK
 - Decimals 18
