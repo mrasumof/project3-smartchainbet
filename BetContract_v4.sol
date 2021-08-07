@@ -2,9 +2,9 @@ pragma solidity ^0.4.24;
 
 import './Resolution_Referree.sol';
 
-contract BetList is RefBased {
+contract EventList is RefBased {
 
-  struct Bet {
+  struct Events {
     uint32 event_id;
     uint32 bet_id;
     uint256 event_date;
@@ -17,14 +17,14 @@ contract BetList is RefBased {
     uint256 bet_balance;
   }
 
-  mapping (uint => Bet) public bets;
+  mapping (uint => Events) public games;
   uint32 betCounter;
   uint32 eventCounter;
 
 
   event LogPublishBet(
     uint32 indexed event_id,
-    uint32 bet_id,
+    uint32 indexed bet_id,
     uint256 event_date,
     address indexed betInitiator,
     uint32 home_team, 
@@ -35,7 +35,7 @@ contract BetList is RefBased {
 
   event LogOpenBet(
     uint32 indexed event_id,
-    uint32 bet_id,
+    uint32 indexed bet_id,
     address indexed betInitiator,
     address indexed betAcceptor,
     uint256 accept_date,
@@ -60,7 +60,7 @@ contract BetList is RefBased {
 
     // int bet_win = 0;
     // Store this bet into the contract
-    bets[betCounter] = Bet(
+    games[betCounter] = Events(
       _event_id,
       betCounter,
       _event_date,
@@ -86,8 +86,8 @@ contract BetList is RefBased {
     // Iterate over all Events
     for(uint i = 1; i <= eventCounter; i++) {
       // Keep the ID if the bet is still available
-      if(bets[i].betAcceptor == 0x0) {
-        eventIds[numberOfAvailableEvents] = bets[i].event_id;
+      if(games[i].betAcceptor == 0x0) {
+        eventIds[numberOfAvailableEvents] = games[i].event_id;
         numberOfAvailableEvents++;
       }
     }
@@ -110,8 +110,8 @@ contract BetList is RefBased {
     // Iterate over all bets
     for(uint i = 1; i <= betCounter; i++) {
       // Keep the ID if the bet is still available
-      if(bets[i].betAcceptor == 0x0) {
-        betIds[numberOfAvailablebets] = bets[i].bet_id;
+      if(games[i].betAcceptor == 0x0) {
+        betIds[numberOfAvailablebets] = games[i].bet_id;
         numberOfAvailablebets++;
       }
     }
@@ -133,8 +133,8 @@ contract BetList is RefBased {
     // Iterate over all bets
     for(uint i = 1; i <= betCounter; i++) {
       // Keep the ID if the bet is still available
-      if(bets[i].betAcceptor != 0x0) {
-        betIds[numberOfClosedBets] = bets[i].bet_id;
+      if(games[i].betAcceptor != 0x0) {
+        betIds[numberOfClosedBets] = games[i].bet_id;
         numberOfClosedBets++;
       }
     }
@@ -150,7 +150,7 @@ contract BetList is RefBased {
    }
 
   // Open a bet with event_id
-  function OpenBet(uint32 _event_id, uint32 _home_wins, uint256 _bet_balance) payable public {
+  function OpenBet(uint32 _event_id, uint32 _bet_id, uint32 _home_wins, uint256 _bet_balance) payable public {
     // Check whether there is a bet published
     require(betCounter > 0);
     
@@ -161,33 +161,33 @@ contract BetList is RefBased {
     require(_event_id > 0);
 
     // Retrieve the bet
-    Bet storage bet = bets[_event_id];
+    Events storage game = games[_event_id];
 
     // Check that the bet has not been accepted yet
-    require(bet.betAcceptor == 0x0);
+    require(game.betAcceptor == 0x0);
 
     // // Don't allow the challenger to accept his own bet
     // require(msg.sender != bet.challenger);
 
     // The accepter must deposit his bet
-    require(msg.value == bet.bet_balance);
+    require(msg.value == game.bet_balance);
 
-    bet.betInitiator = msg.sender;
-    bet.event_id = bet.event_id;
+    game.betInitiator = msg.sender;
+    game.event_id = _event_id;
     betCounter++;
     
     uint32 teamID;
     
     if (_home_wins == 1) {
-        teamID = bet.teamH_id;
+        teamID = game.teamH_id;
     }
     
     if (_home_wins == 2) {
-        teamID = bet.teamA_id;
+        teamID = game.teamA_id;
     }
 
     // Trigger a log event
-    emit LogOpenBet(_event_id, betCounter, bet.betInitiator, 0x0, now, _home_wins, teamID, msg.value);
+    emit LogOpenBet(_event_id, 15, game.betInitiator, 0x0, now, _home_wins, teamID, msg.value);
   }
 
 } 
